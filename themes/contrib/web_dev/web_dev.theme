@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook__suggestions_HOOK_alter().
+ */
+function web_dev_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  // Add theme suggestions to blocks based on region.
+  if (!empty($variables['elements']['#id'])) {
+    $block = Drupal\block\Entity\Block::load($variables['elements']['#id']);
+    $suggestions[] = 'block__' . $block->getRegion();
+    $suggestions[] = 'block__' . $block->getRegion() . '__' . $variables['elements']['#id'];
+  }
+  return $suggestions;
+}

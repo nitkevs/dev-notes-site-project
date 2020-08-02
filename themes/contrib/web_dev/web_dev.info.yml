@@ -1,0 +1,22 @@
+name: web_dev
+type: theme
+base theme: classy
+description: 'Тема для блога'
+package: core
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - web_dev/global-components
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+
+# Information added by Drupal.org packaging script on 2020-03-04
+version: '1.0.1'
+project: 'drupal'
