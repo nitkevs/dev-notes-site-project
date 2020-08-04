@@ -1,22 +1,12 @@
 Тема для моего блога на Drupal8/9.
 
 Репозиторий на github: https://github.com/nitkevs/web_dev
+Репозиторий на pakagist.org: https://packagist.org/packages/nitkevs/web_dev
 
-Установить с помощью git.
-
-    В каталоге themes/contrib:
-    git clone https://github.com/nitkevs/web_dev
-
-Установить с помощью composer.
-
-    Добавить репозиторий:
-    {
-        "type": "git",
-        "url": "https://github.com/nitkevs/web_dev"
-    }
+Установить с помощью composer:
 
     В корне сайта:
-    composer require web_dev/web_dev
+    composer require nitkevs/web_dev
 
 Для правильной работы темы предполагаются настройки:
 
@@ -25,8 +15,8 @@
     В "Шапке" сайта находится только блок "Брендинг сайта".
     В "Primary menu" так же один блок - "Основная навигация".
     В "Footer third" - "Сделано на Drupal".
-    В "Footer first" - блок с кастомным меню "footer menu first".
-    В "Footer second" - блок с кастомным меню "footer menu second".
+    В "Footer first" - блок "Основная навигация".
+    В "Footer second" - блок с кастомным меню "footer second menu".
     Остальные регионы можно оставить как есть.
 
     Настройка блоков:
@@ -36,3 +26,6 @@
 
     В "Поиск".
     Заголовок блока отключён.
+
+    В "Основная навигация" футера и боковой панели.
+    Заголовок блока отключён

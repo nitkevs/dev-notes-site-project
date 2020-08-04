@@ -155,7 +155,7 @@ header a {
   color: #eee;
 }
 
-.region-sidebar-first ul li{
+.region-sidebar-first ul li {
   list-style: none;
 }
 
@@ -179,13 +179,13 @@ header a {
   color: #f3f7f7;
 }
 
-.region-sidebar-first input {
-  color: #202020;
+.region-sidebar-first input  {
+    color: #202020;
 }
 
 .region-sidebar-first input[type="search"] {
+  display: inline-block;
   padding: 1px 4px;
-  color: #202020;
 }
 
 .region-sidebar-first > * > *:last-child {
@@ -216,7 +216,7 @@ header a {
   display: none;
 }
 
-#sidebar-first .block-system-menu-blockmain ul.menu{
+#sidebar-first .block-system-menu-blockmain ul.menu {
   padding-top: 0;
 }
 
@@ -228,6 +228,24 @@ header a {
   display: none;
 }
 
+#block-web-dev-content footer {
+  padding-left: 35px;
+  color: #636363;
+  font-size: 14px;
+
+}
+
+.comment__submitted span[rel="schema:author"] {
+  font-weight: bold;
+}
+
+article.comment {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+article.comment:last-of-type {
+  border-bottom: none;
+}
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
@@ -257,7 +275,6 @@ a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
 /* ----- end of sidebar-first ----- */
 
 /* ----- main ----- */
-
 
 #content {
   float: right;
@@ -299,7 +316,6 @@ a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
   text-shadow: 1px 1px 2px #636363;
 }
 
-
 div#main {
   overflow: hidden;
 }
@@ -314,6 +330,13 @@ footer.node__meta {
 
 .field__items {
   padding-bottom: 36px;
+}
+
+.form-item input,
+.form-item textarea {
+  max-width: 100%;
+  display: block;
+  margin-top: 8px;
 }
 
 /* ----- end of main ----- */
@@ -370,6 +393,7 @@ footer.site-footer a:hover {
 img.drupal-small-logo {
   height: 13px;
 }
+
 /* ----- end of footer ----- */
 
 /*  ----- admininistation interface  ----- */
@@ -393,7 +417,6 @@ img.drupal-small-logo {
   text-decoration: underline;
 }
 
-
 #block-web-dev-branding ul.contextual-links a,
 #main-wrapper ul.contextual-links a,
 .contextual-region .contextual .contextual-links a {
@@ -407,9 +430,9 @@ img.drupal-small-logo {
 
 #block-web-dev-branding ul.contextual-links a:hover,
 #main-wrapper ul.contextual-links a:hover,
-.no-touchevents .contextual-region .contextual .contextual-links li a:hover
- {
+.no-touchevents .contextual-region .contextual .contextual-links li a:hover {
   text-decoration: underline;
   color: #1f76bd;
 }
+
 /* ----- end of admininistation interface  ----- */
