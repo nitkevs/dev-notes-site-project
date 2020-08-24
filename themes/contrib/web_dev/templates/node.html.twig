@@ -71,7 +71,6 @@
  */
 #}
 <article{{ attributes }}>
-
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
@@ -82,7 +81,7 @@
 
   {% if display_submitted %}
     <footer>
-      <div{{ author_attributes }}>
+      <div {{ attributes.addClass('fas', 'fa-calendar') }}>
         {% set createdDate = node.getCreatedTime|format_date('node_creation_date_format') %}
         {% trans %}{{ createdDate }} {% endtrans %}
         {{ metadata }}

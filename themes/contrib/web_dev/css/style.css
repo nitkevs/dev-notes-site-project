@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Open+Sans&family=PT+Sans&family=Anonymous+Pro:wght@400;700&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Open+Sans&family=PT+Sans&family=PT+Mono&display=swap');
 
 html, body, div, nav, footer,
 main, aside, header {
@@ -232,20 +232,8 @@ header a {
   padding-left: 35px;
   color: #636363;
   font-size: 14px;
-
 }
 
-.comment__submitted span[rel="schema:author"] {
-  font-weight: bold;
-}
-
-article.comment {
-  border-bottom: 1px solid #d5d5d5;
-}
-
-article.comment:last-of-type {
-  border-bottom: none;
-}
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
@@ -285,6 +273,9 @@ a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
   padding: 16px 35px 2000000px 35px;
   box-shadow: inset 0px 15px 5px -15px #1a2504;
   background: #fff;
+  line-height: 1.4em;
+  font-size: 16px;
+  letter-spacing: 0;
 }
 
 #content a {
@@ -337,6 +328,51 @@ footer.node__meta {
   max-width: 100%;
   display: block;
   margin-top: 8px;
+}
+
+.links .fas {
+    padding: 0 1em 0 0;
+    color: #4b7886;
+}
+
+.field--type-comment {
+    padding: 0 15% 0 3%;
+}
+
+.comment__submitted span[rel="schema:author"] {
+  font-weight: bold;
+}
+
+#content .comment__submitted *.fa-user-circle-o::before {
+  padding-right: 3px;
+}
+
+#content .comment__submitted a.fa-user-circle-o {
+  text-decoration: none;
+}
+
+article.comment {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 5px 0 15px 0;
+}
+
+.field--type-comment h2 {
+  margin: 40px 0px 12px 0px;
+}
+
+ul.links.inline {
+  padding-left: 28px; /* LTR */
+  font-size: 14px;
+}
+
+#content ul.links.inline a,
+#content a[property="schema:name"] {
+  text-decoration: none;
+}
+
+#content ul.links.inline a:hover,
+#content a[property="schema:name"]:hover {
+  text-decoration: underline;
 }
 
 /* ----- end of main ----- */
@@ -406,6 +442,7 @@ img.drupal-small-logo {
   text-decoration: none;
   color: #445155;
   line-height: 1.2em;
+  font-size: 14px;
 }
 
 #main-wrapper .tabs a.is-active {

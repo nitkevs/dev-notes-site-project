@@ -1918,16 +1918,16 @@
         },
         {
             "name": "nitkevs/web_dev",
-            "version": "1.0.3",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nitkevs/web_dev.git",
-                "reference": "709241df8dccb3f1a3b56d4e01a43a47ce45a6bf"
+                "reference": "69162590c709ef2d600a667debb17e2af248558c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nitkevs/web_dev/zipball/709241df8dccb3f1a3b56d4e01a43a47ce45a6bf",
-                "reference": "709241df8dccb3f1a3b56d4e01a43a47ce45a6bf",
+                "url": "https://api.github.com/repos/nitkevs/web_dev/zipball/69162590c709ef2d600a667debb17e2af248558c",
+                "reference": "69162590c709ef2d600a667debb17e2af248558c",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -1936,7 +1936,7 @@
                 "GPL-2.0+"
             ],
             "description": "Custom theme for my blog.",
-            "time": "2020-08-04T13:47:51+00:00"
+            "time": "2020-08-24T09:04:17+00:00"
         },
         {
             "name": "paragonie/random_compat",
