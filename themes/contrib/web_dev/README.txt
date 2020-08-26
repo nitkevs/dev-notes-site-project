@@ -32,3 +32,9 @@
 
     В записях блога и комментариях используется кастомный формат даты node_creation_date_format.
     Формат: j F Y - H:i
+
+Тема так же содержит стили для модулей TagCloud, Geshi Filter и CAPTCHA:
+
+    https://www.drupal.org/project/tagclouds
+    https://www.drupal.org/project/geshifilter
+    https://www.drupal.org/project/captcha

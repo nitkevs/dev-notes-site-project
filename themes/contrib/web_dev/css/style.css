@@ -330,13 +330,16 @@ footer.node__meta {
   margin-top: 8px;
 }
 
-.links .fas {
-    padding: 0 1em 0 0;
-    color: #4b7886;
+input[type="checkbox"] {
+  display: inline;
+}
+
+div.description {
+  margin-top: 8px;
 }
 
 .field--type-comment {
-    padding: 0 15% 0 3%;
+  padding: 0 15% 0 3%;
 }
 
 .comment__submitted span[rel="schema:author"] {
@@ -374,6 +377,45 @@ ul.links.inline {
 #content a[property="schema:name"]:hover {
   text-decoration: underline;
 }
+
+.field--name-field-used-in {
+  float: right;
+  width: 15em;
+  border: 1px solid #ececa1;
+  background: #ffffe0;
+  padding: 12px;
+  margin: 0px 0 8px 8px;
+  font-size: 13px;
+  color: #4d4d4d;
+}
+
+.field--name-field-used-in .field__label {
+  font-size: 15px;
+}
+
+.field--name-field-used-in p {
+  margin-bottom: 0;
+  margin-top: 0.7em;
+}
+
+  /* -- CAPTCHA -- */
+
+.captcha {
+  background: #ffffe0;
+  padding: 10px 20px;
+  border: 1px solid #ececa1;
+}
+
+.captcha .form-item {
+  margin: 0;
+}
+
+.captcha .form-item input {
+  display: inline-block;
+  margin-top: 0;
+}
+
+  /* -- end of CAPTCHA -- */
 
 /* ----- end of main ----- */
 
