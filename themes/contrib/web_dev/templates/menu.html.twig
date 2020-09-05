@@ -44,10 +44,7 @@
         ]
       %}
       <li{{ item.attributes.addClass(classes) }}>
-        {%
-          set attributes = attributes.setAttribute('target','_blank')
-        %}
-        {{ link(item.title, item.url, attributes) }}
+        {{ link(item.title, item.url) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}

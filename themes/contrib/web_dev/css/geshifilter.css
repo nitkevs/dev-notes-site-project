@@ -8,7 +8,7 @@
  * --------------------------------------
  */
 div.geshifilter {
-  padding: 0;
+  padding: 0 10px 0 0;
   background: #f8f8f8;
 }
 
@@ -36,10 +36,6 @@ div.geshifilter li:first-of-type {
 
 div.geshifilter li:last-of-type {
   padding-bottom: 7px;
-}
-
-.geshifilter li span:last-of-type {
-    padding-right: 12px;
 }
 
 .apache.geshifilter-apache .de1, .apache.geshifilter-apache .de2 {font-family: 'PT Mono', monospace; font-weight: normal; font-style: normal}

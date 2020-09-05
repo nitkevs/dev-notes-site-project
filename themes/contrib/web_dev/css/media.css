@@ -36,15 +36,15 @@
 
   /* --- Mobile menu --- */
 
-  #sidebar-first {position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; overflow-x: scroll; text-align: center; transition-duration: 0.4s; transition-property: opacity;}
+  #sidebar-first {position: fixed; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; overflow-x: scroll; text-align: center; transition-duration: 0.4s; transition-property: opacity;}
 
-  #open-menu-button {display: block; position: absolute; top: 38px; right: 18px; z-index: 4; border-radius: 6px; background: #4d4f4f;}
+  #open-menu-button {display: block; position: absolute; top: 38px; right: 18px; z-index: 4; border-radius: 6px; border: 1px solid #777;}
 
   #content .views-row:first-child h2 {margin-right: 60px;} /* Добавляет отступ для первого заголовка на главной, чтобы на него не набегала кнопка меню */
 
   #content h2 {line-height: 1.4em;}
 
-  #close-menu-button {display: block; position: absolute; z-index: 4; top: 18px; right: 18px;}
+  #close-menu-button {display: block; position: absolute; z-index: 4; top: 12px; right: 12px;}
 
   .region-primary-menu {display: none;}
 
@@ -54,18 +54,30 @@
 
   .region-sidebar-first a {display: block;}
 
-  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
+  #sidebar-first span > a, #sidebar-first li.menu-item > a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
+
+  #sidebar-first span > a, #sidebar-first li.menu-item > a {padding: 0 8px;}
 
   h1 {padding: 22px 60px 22px 0;}
 
+  #sidebar-first .block-system-menu-blockmain ul.menu {padding-top: 19px;}
+
+  #block-web-dev-search {padding: 10px 0 8px 0;}
+
+  #sidebar-first hr.list-items-separator {display: block; width: 58%; height: 1px; border: none; background: linear-gradient(to right, transparent, #666, transparent);}
+
   /* --- End of mobile menu --- */
+
+  #block-web-dev-content img {width: 94%; margin-left: 3%;}
 
 }
 
 
 @media screen and (max-width: 480px) {
 
-  #open-menu-button {top: 33px; right: 12px;}
+  #open-menu-button {top: 33px; right: 15px;}
+
+/*   .views-row::first-of-type h2 {margin-right: 8px;} */
 
   #block-web-dev-branding a {font-size: 35px;}
 
@@ -74,6 +86,8 @@
   .region-sidebar-first input[type="search"] {margin-left: 60px;}
 
   #block-web-dev-content footer {padding-left: 0px;}
+
+  ul.links.inline {padding: 0;}
 
 }
 
@@ -96,6 +110,8 @@
   .field--name-field-used-in {width: 14em; padding: 5px 8px; font-size: 12px;}
 
   .field--name-field-used-in .field__label {font-size: 14px;}
+
+  #content .views-row:first-child h2 {margin-right: 68px;} /* Добавляет отступ для первого заголовка на главной, чтобы на него не набегала кнопка меню */
 
 }
 

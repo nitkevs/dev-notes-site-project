@@ -8,7 +8,7 @@ openMenuButton.addEventListener('click', function() {
     items = document.querySelectorAll('#sidebar-first ul.menu a, #sidebar-first .field-content a, #sidebar-first .h2-container h2, #sidebar-first .tagclouds-term a');
   for (i = 0; i < items.length; i++) {
     items[i].style.transitionProperty = 'transform';
-    items[i].style.transitionDelay = i/50  + 's';
+    items[i].style.transitionDelay = i/150  + 's';
     items[i].style.transform = 'translateX(0%)';
   }
 });
@@ -16,7 +16,7 @@ openMenuButton.addEventListener('click', function() {
 closeMenuButton.addEventListener('click', function() {
    menu.style.opacity = '0';
    setTimeout(function() {
-     menu.style.zIndex = '0';
+     menu.style.zIndex = '-1';
      for (i = 0; i < items.length; i++) {
      items[i].style.transitionProperty = 'none';
      items[i].style.transform = 'translateX(-100%)';

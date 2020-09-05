@@ -18,7 +18,8 @@ regions:
   footer_first: 'Footer first'
   footer_second: 'Footer second'
   footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
 
 # Information added by Drupal.org packaging script on 2020-03-04
-version: '1.3.0'
+version: '1.4.2'
 project: 'drupal'

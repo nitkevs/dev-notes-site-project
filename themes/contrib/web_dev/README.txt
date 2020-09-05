@@ -38,3 +38,5 @@
     https://www.drupal.org/project/tagclouds
     https://www.drupal.org/project/geshifilter
     https://www.drupal.org/project/captcha
+
+Для облака тегов предполагается блок с машинным именем sidebar_tags_cloud, иначе существующий в теме шаблон нужно переименовать в соответствии с именем созданного блока.

@@ -13,6 +13,14 @@
   color: #4b7886;
 }
 
+#content *.fa-user-circle-o::before {
+  padding-right: 3px;
+}
+
+#content a.fa-user-circle-o {
+  text-decoration: none;
+}
+
  .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 
  .fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
