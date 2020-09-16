@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/geshifilter": "^2.0",
+        "drupal/pathauto": "^1.8",
         "drupal/tagclouds": "^1.0",
         "nitkevs/web_dev": "^1.0"
     },
