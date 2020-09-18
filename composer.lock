@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c57a5c6832aac077472090056b07cddd",
+    "content-hash": "f95ba41a92fe7f6ab6c13bfe0f833276",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2310,16 +2310,16 @@
         },
         {
             "name": "nitkevs/web_dev",
-            "version": "1.4.5",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nitkevs/web_dev.git",
-                "reference": "3b8798e5f7241ed34d212913b21e7c6625c25a9b"
+                "reference": "c2b56834057ee22595bd1e3f3d051b449f5b2886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nitkevs/web_dev/zipball/3b8798e5f7241ed34d212913b21e7c6625c25a9b",
-                "reference": "3b8798e5f7241ed34d212913b21e7c6625c25a9b",
+                "url": "https://api.github.com/repos/nitkevs/web_dev/zipball/c2b56834057ee22595bd1e3f3d051b449f5b2886",
+                "reference": "c2b56834057ee22595bd1e3f3d051b449f5b2886",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -2328,7 +2328,7 @@
                 "GPL-2.0+"
             ],
             "description": "Custom theme for my blog.",
-            "time": "2020-09-05T17:47:27+00:00"
+            "time": "2020-09-16T18:17:03+00:00"
         },
         {
             "name": "paragonie/random_compat",
